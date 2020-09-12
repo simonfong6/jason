@@ -21,7 +21,7 @@ def get_current_time():
     return {
         'time': time.time(),
         'status': 'failure',
-        'version': 0.6
+        'version': 0.7
     }
 
 
