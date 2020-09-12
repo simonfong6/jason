@@ -3,6 +3,6 @@ services:
   api:
     build:
       context: .
-    image: jason:0.1
+    image: jason:0.2
     ports:
       - 5000:5000

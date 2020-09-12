@@ -20,7 +20,7 @@ app = Flask(
 def get_current_time():
     return {
         'time': time.time(),
-        'status': 'failure',
+        'status': 'not failure',
         'version': 0.7
     }
 

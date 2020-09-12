@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: jason
-          image: jason:0.1
+          image: jason:0.2
           ports:
             - containerPort: 5000
           env:
